@@ -1,3 +1,4 @@
+// Types
 import { Order } from '../typings/data.js';
 
 export const getBiggerQuantityRecord = (data: Order[]) =>

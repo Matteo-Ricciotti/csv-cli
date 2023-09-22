@@ -1,3 +1,4 @@
+// Utilities
 import { getPriceWithDiscount } from './get-price-with-discount.js';
 export const getBiggerTotalAmountRecord = (data) => data.reduce((a, b) => {
     const orderPriceWithDiscount = getPriceWithDiscount(b);

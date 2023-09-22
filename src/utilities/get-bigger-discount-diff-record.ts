@@ -1,5 +1,8 @@
-import { Order } from '../typings/data.js';
+// Utilities
 import { getPriceWithDiscount } from './get-price-with-discount.js';
+
+// Types
+import { Order } from '../typings/data.js';
 
 export const getBiggerDiscountDiffRecord = (data: Order[]) =>
   data.reduce((a, b) => {

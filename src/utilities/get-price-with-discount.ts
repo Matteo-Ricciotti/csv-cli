@@ -1,3 +1,4 @@
+// Types
 import { Order } from '../typings/data.js';
 
 export const getPriceWithDiscount = (order: Order) =>
