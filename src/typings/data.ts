@@ -1,3 +1,4 @@
+// Types
 import { ResultChoiceID } from './enums.js';
 
 export type Order = {
